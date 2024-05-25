@@ -1,0 +1,5 @@
+/Source/.vs
+/Source/RimKeeperFilterHelper/bin
+/Source/RimKeeperFilterHelper/obj
+
+*.pdb
