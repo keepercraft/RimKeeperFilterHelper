@@ -41,7 +41,7 @@ namespace Keepercraft.RimKeeperFilterHelper.Models
             Scribe_Values.Look(ref ActiveResize, nameof(ActiveResize), true);
             Scribe_Values.Look(ref ActiveBookmark, nameof(ActiveBookmark), true);
             Scribe_Values.Look(ref ActiveSelection, nameof(ActiveSelection), true);
-            Scribe_Values.Look(ref ActivePanelList, nameof(ActivePanelList), true);
+            Scribe_Values.Look(ref ActivePanelList, nameof(ActivePanelList), false);
             Scribe_Collections.Look(ref Filters, nameof(Filters), LookMode.Deep);
 
             Scribe_Values.Look(ref WindowResizeMinX, nameof(WindowResizeMinX), 200);

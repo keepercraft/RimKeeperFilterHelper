@@ -18,7 +18,7 @@ namespace Keepercraft.RimKeeperFilterHelper
             WindowResizeMinXText = RimKeeperFilterHelperModSettings.WindowResizeMinX.ToString();
         }
 
-        public override string SettingsCategory() => "RK FilterHelper";
+        public override string SettingsCategory() => "RK Storage and Filters";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {

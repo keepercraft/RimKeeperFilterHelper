@@ -10,5 +10,21 @@
 	<loadAfter>
 		<li>brrainz.harmony</li>
 	</loadAfter>
-	<description>RimKeeperFilterHelper</description>
+	<description>
+This mod adds several features that can help you manage storage and filters. 
+Each functionality can be disabled or changed in the mod settings window.
+Tried to make the mod clear and easy to use, and not to slow down the game's performance.
+I will add more functionality in the future. 
+
+Currently, the mod adds functionality:
+
+- Storage filter tabs to save and copy filters between saves. 
+- Resize by dragging the storage filter window. 
+- Quickly select/deselect items in the filter window.
+
+Let me know if you find any incompatibility or have an idea for adding functionality.
+
+Source Code: [url=https://github.com/keepercraft/RimKeeperFilterHelper]Github[/url]
+[url=https://ko-fi.com/keepercraft][img]https://storage.ko-fi.com/cdn/kofi5.png?v=3[/img][/url]
+	</description>
 </ModMetaData>
