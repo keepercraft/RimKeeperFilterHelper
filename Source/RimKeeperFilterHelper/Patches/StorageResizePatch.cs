@@ -25,7 +25,7 @@ namespace Keepercraft.RimKeeperFilterHelper.Patches
             if (Event.current.type == EventType.MouseDown && Event.current.button == 0)
             {
                 resizeActivator = true;
-                resizeStart = Input.mousePosition;
+                resizeStart = UnityEngine.Input.mousePosition;
                 Event.current.Use();
             }
 

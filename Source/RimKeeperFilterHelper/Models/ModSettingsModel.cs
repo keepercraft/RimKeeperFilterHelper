@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Keepercraft.RimKeeperFilterHelper.Helpers;
+using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -37,6 +38,7 @@ namespace Keepercraft.RimKeeperFilterHelper.Models
         public override void ExposeData()
         {
             base.ExposeData();
+            DebugHelper.Active = DebugLog;
             Scribe_Values.Look(ref DebugLog, nameof(DebugLog), false);
             Scribe_Values.Look(ref ActiveResize, nameof(ActiveResize), true);
             Scribe_Values.Look(ref ActiveBookmark, nameof(ActiveBookmark), true);

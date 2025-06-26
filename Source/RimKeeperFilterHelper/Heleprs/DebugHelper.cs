@@ -6,7 +6,7 @@ namespace Keepercraft.RimKeeperFilterHelper.Helpers
     public static class DebugHelper
     {
         private static string _header = "Debug"; 
-        public static bool Active = RimKeeperFilterHelperModSettings.DebugLog;
+        public static bool Active = false;
 
         public static void SetHeader(string text) => _header = string.Format("[{0}] ", text);
 
